@@ -14,12 +14,10 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
-url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
-cover: "/assets/cover.png"
+title: Dev Empathy Book Club
+subtitle: "Better Developers. Better People."
+url: "http://dev-empathy-book-club.github.io" # the base hostname & protocol for your site
+baseurl: ""
 logo: "/assets/logo.png"
 
 # Build settings
@@ -33,5 +31,5 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: episodes
+    desc: "Panel discussions so far!"
