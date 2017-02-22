@@ -10,33 +10,43 @@ subheading: Don’t just take our word for it. Check out some of our latest work
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-          </form>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeo_yiLc-cKqEenR8SV89_pHh7v8nM70HY7iBK5JoAqH5e7cw/formResponse?embedded=true" target="_self" method="POST">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="entry.2005620554" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="entry.1045781291" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="entry.1065046570" placeholder="Subject">
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
+        <div class="col-md-6 col-sm-12">
+          <div class="block">
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" rows="3" name="entry.839337160" placeholder="Your Message"></textarea>
             </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
+            <input type="hidden" name="fbzx" id="hidden-fbzx">
+            <script type="text/javascript">
+              function getRandomInt(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min)) + min;
+              }
+
+              document.getElementById('hidden-fbzx').value = getRandomInt(1000000000000000000, 9999999999999999999);
+            </script>
+            <input class="btn btn-default" type="submit" value="Submit">
+          </div>
         </div>
       </div>
-    </div>
+    </form>
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
