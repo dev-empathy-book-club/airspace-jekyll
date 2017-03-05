@@ -137,19 +137,19 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
-#intro {
+#intro, #main {
   padding: 100px 0;
 }
-#intro .block h2 {
+#intro .block h2, #main .block h2 {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
-#intro .block p {
+#intro .block p, #main .block p {
   color: #7B7B7B;
   padding-top: 20px;
 }
-#intro .block img {
+#intro .block img, #main .block img {
   margin-left: 40px;
   width: 100%;
   border-radius: 60px;
@@ -157,13 +157,13 @@ font header .navbar-default .navbar-nav li a:hover {
   -moz-box-shadow: 0px 0px 83px -13px rgba(0,0,0,0.70);
   box-shadow: 0px 0px 83px -13px rgba(0,0,0,0.70);
 }
-#intro .section-title {
+#intro .section-title, #main .section-title {
   margin-bottom: 0px;
 }
-#intro .section-title p {
+#intro .section-title p, #main .section-title p {
   padding-top: 20px;
 }
-#intro .btn-intro {
+#intro .btn-intro, #main .btn-intro {
   padding: 15px 35px;
   background-color: #fff;
   font-size: 15px;
