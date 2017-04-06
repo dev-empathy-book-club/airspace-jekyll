@@ -2,14 +2,11 @@
 layout: page
 title: Code of Conduct
 permalink: /code-of-conduct/
-headline: Our Code of Conduct
 ---
-
-{% include slider.html %}
 
 <div class="container" markdown="1">
 
-# Table of Contents
+# Code of Conduct
 
 1. [Prelude](#prelude)
 2. [Purpose](#purpose)
