@@ -44,6 +44,9 @@ ul {
 ul li {
   margin: 0 0 10px;
 }
+a {
+  color: #1476cc;
+}
 a,
 a:active,
 a:focus,
@@ -148,7 +151,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p, #main .block p {
-  color: #7B7B7B;
+  color: #6B6B6B;
   padding-top: 20px;
 }
 #intro .block img, #main .block img {
@@ -193,7 +196,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #666;
 }
 #service .service-item p {
-  color: #888;
+  color: #666;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
@@ -300,7 +303,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .block p {
   padding-top: 50px;
-  color: #7B7B7B;
+  color: #6B6B6B;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -803,10 +806,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: #666;
 }
 footer a {
-  color: #595959;
+  color: #282828;
 }
 footer .footer-manu {
   padding-bottom: 25px;
