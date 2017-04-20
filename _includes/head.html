@@ -22,6 +22,13 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+{% if page.twitter.large_card %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.twitter.large_card.title }}">
+<meta name="twitter:description" content="{{ page.twitter.large_card.description}}">
+<meta name="twitter:image" content="http://www.devempathybook.club/img/twitter-card.png">
+{% endif %}
+
 <!-- CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
