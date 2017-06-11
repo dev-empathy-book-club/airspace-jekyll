@@ -33,3 +33,7 @@ descriptions:
 
   - cat: episodes
     desc: "Panel discussions so far!"
+
+collections:
+  posts:
+    permalink: /episodes/:slug
