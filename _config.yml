@@ -35,5 +35,6 @@ descriptions:
     desc: "Panel discussions so far!"
 
 collections:
-  posts:
-    permalink: /episodes/:slug
+  episodes:
+    output: true
+    permalink: /:collection/:slug
