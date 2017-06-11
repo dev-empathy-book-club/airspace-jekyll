@@ -26,7 +26,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.twitter.large_card.title }}">
 <meta name="twitter:description" content="{{ page.twitter.large_card.description}}">
+{% if page.twitter.large_card.image %}
+<meta name="twitter:image" content="{{ page.twitter.large_card.image }}">
+{% else %}
 <meta name="twitter:image" content="http://www.devempathybook.club/img/twitter-card.png">
+{% endif %}
 {% endif %}
 
 <!-- CSS -->
