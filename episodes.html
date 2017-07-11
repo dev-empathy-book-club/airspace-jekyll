@@ -15,7 +15,7 @@ permalink: /episodes/
     </div>
   </div>
 </section>
-{% for episode in site.episodes %}
+{% for episode in site.episodes reversed %}
 <div class="post-area">
   <a href="{{ episode.url | prepend: site.baseurl }}" class="bold">{{ episode.title }}</a>
   <p class="post-date">{{ episode.date | date_to_long_string }}</p>
