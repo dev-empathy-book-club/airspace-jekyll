@@ -7,9 +7,8 @@ slug: 6-mythical-man-month-part-ii
 twitter:
   large_card:
     title: "Episode 6: The Mythical Man-Month, Part II"
-    description: Exploring old ideas in a modern context, we discussed the
-      Surgical Team paradigm, communication tools, centralized vs. distributed
-      decisionmaking, and more...
+    description: Exploring old debates in new contexts, we discussed flow state,
+      developer-manager interactions, definition of "done," and more...
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2xHkCqaJ1A" frameborder="0" allowfullscreen></iframe>
