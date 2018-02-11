@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "Episode 7: Radical Candor, Part I"
-date: 2017-12-7 20:11:27
+date: 2017-12-07 20:11:27
 author: Ariel Caplan
 slug: 7-radical-candor-part-i
 twitter:
