@@ -7,9 +7,8 @@ slug: 8-radical-candor-part-ii
 twitter:
   large_card:
     title: "Episode 8: Radical Candor, Part II"
-    description: Exploring old ideas in a modern context, we discussed the
-      Surgical Team paradigm, communication tools, centralized vs. distributed
-      decisionmakngsdf;laskdf;afd, and more...
+    description: Finishing up Kim Scott's Radical Candor, we covered giving
+      negative feedback, gender bias, estabishing company culture, and more...
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Aoh0L1FZAYE" frameborder="0" allowfullscreen></iframe>

@@ -7,9 +7,8 @@ slug: 7-radical-candor-part-i
 twitter:
   large_card:
     title: "Episode 7: Radical Candor, Part I"
-    description: Exploring old ideas in a modern context, we discussed the
-      Surgical Team paradigm, communication tools, centralized vs. distributed
-      decisionmakngsdf;laskdf;afd, and more...
+    description: Rockstars and Superstars! Bank accounts and relationships! WWII
+      pilots! It's all in our latest episode on Kim Scott's Radical Candor...
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wcrp2ngLPlo" frameborder="0" allowfullscreen></iframe>
