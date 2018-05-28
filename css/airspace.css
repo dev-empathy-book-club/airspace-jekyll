@@ -173,6 +173,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 15px;
   color: #333333;
   margin-top: 30px;
+  font-weight: bold;
+  border-width: 2px;
 }
 .videoWrapper {
 	position: relative;
