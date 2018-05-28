@@ -28,13 +28,16 @@ markdown: kramdown
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
   - cat: episodes
     desc: "Panel discussions so far!"
 
+  - cat: stories
+    desc: "Your turn to share your #DevEmpathy stories!"
+
 collections:
+  stories:
+    output: true
+    permalink: '/stories/:slug'
   episodes:
     output: true
-    permalink: /:collection/:slug
+    permalink: '/episodes/:slug'
