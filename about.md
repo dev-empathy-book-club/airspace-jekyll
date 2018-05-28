@@ -22,11 +22,7 @@ headline: What is Dev Empathy Book Club?
   </p>
 
   <p>
-  Dev Empathy Book Club was founded in 2017 to answer that challenge.
-  We're a group of software engineers who want to make the world a more
-  empathetic place, and know it starts with ourselves. We also know that just
-  as communities build better software, communities are also a powerful way to
-  develop our own skills.
+  Dev Empathy Book Club was founded to answer that challenge.
   </p>
 
   <p>
