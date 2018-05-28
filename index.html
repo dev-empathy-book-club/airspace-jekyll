@@ -64,7 +64,17 @@ latest_episode_link: JlcEHatXr-I
 <section id="feature">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-6">
+      <div class="col-md-5">
+        {% assign story = site.stories | last %}
+        <h2>{{story.title}}</h2>
+        <p>
+          {{ story.content | truncatewords: 80 }}
+        </p>
+        <p><a href="{{ story.url | prepend: site.baseurl }}"><strong>Keep Reading...</strong></a></p>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-6">
         <h2>MOST RECENT EPISODE</h2>
         <p>
           <div class="videoWrapper">
