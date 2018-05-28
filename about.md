@@ -10,25 +10,39 @@ headline: What is Dev Empathy Book Club?
 <div id="intro">
   <div class="container">
 
-    <p>Glad you asked!</p>
-  
     <p>
-    Dev Empathy Book Club (DEBC) was founded in early 2017 to create a forum where
-    software developers can improve their empathy skills by reading new ideas and
-    talking about them with others.
+    Software developers have a problem.
     </p>
-  
+
     <p>
-    The public perception of devs is as a group of antisocial, mathematics-oriented,
-    technically-minded people. Yet in reality, our professional success is all about
-    communication, understanding other people, and meeting real needs.
+    We're constantly told we need to get better at empathy skills. But all the
+    encouragement in the world won't help us figure out <em>how</em> to make that
+    happen.
     </p>
-  
+
     <p>
-    DEBC is for developers who want to express that recognition, broaden their
-    exposure, deepen their social consciousness, and make the world of
-    software&mdash;and the world at large!&mdash;a happier, healthier, more
-    empathetic place.
+    Dev Empathy Book Club (DEBC) was founded in 2017 to answer that challenge.
+    We're a group of software engineers who want to make the world a more
+    empathetic place, and know it starts with ourselves. We also know that just
+    as communities build better software, communities are also a powerful way to
+    develop our own skills.
+    </p>
+
+    <p>
+    We're here to be the world's most supportive community of programmers
+    reprogramming our brains to be more empathetic... and maybe we'll even make
+    a few friends along the way!
+    </p>
+
+    <p>
+    Looking to broaden your exposure, improve your communication skills, and
+    share stories with a supportive audience as we all learn from the laboratory
+    of real life? You've come to the right place.
+    </p>
+
+    <p>
+    So <a href="https://join.slack.com/t/devempathybookclub/shared_invite/MjExMTA4MjU0MDM3LTE0OTk3NzkwMjItYmExZmRkOWI4Ng">join us</a>!
+    We look forward to learning from your experiences.
     </p>
 
     <h4>Credits</h4>
