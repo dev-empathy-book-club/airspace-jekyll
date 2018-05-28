@@ -70,7 +70,9 @@ latest_episode_link: JlcEHatXr-I
         <p>
           {{ story.content | truncatewords: 80 }}
         </p>
-        <p><a href="{{ story.url | prepend: site.baseurl }}"><strong>Keep Reading...</strong></a></p>
+        <p>
+          <a href="{{ story.url | prepend: site.baseurl }}" class="btn btn-default">Read More</a>
+        </p>
       </div>
       <div class="col-md-1">
       </div>
@@ -81,7 +83,9 @@ latest_episode_link: JlcEHatXr-I
             <p><iframe width="560" height="315" src="https://www.youtube.com/embed/{{page.latest_episode_link}}?rel=0" frameborder="0" allowfullscreen></iframe></p>
           </div>
         </p>
-        <p><strong>Check <a href="/episodes">the archive</a> for more!</strong></p>
+        <p>
+          <a href="/episodes" class="btn btn-default">Explore the Archives</a>
+        </p>
       </div>
     </div>
   </div>
