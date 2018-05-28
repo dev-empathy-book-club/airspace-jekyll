@@ -36,3 +36,7 @@
 ul li {
   margin: 10px;
 }
+
+#what-is-club.row > div {
+  padding: 20px;
+}
