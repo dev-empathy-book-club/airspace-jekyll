@@ -20,7 +20,7 @@ permalink: /stories/
   <a href="{{ story.url | prepend: site.baseurl }}" class="bold">{{ story.title }}</a>
   <p class="post-date">{{ story.date | date_to_long_string }}</p>
   <p>
-    {{ story.content | strip_html | truncatewords: 50 }}
+    {{ story.content | truncatewords: 80 }}
   </p>
 </div>
 {% endfor %}
