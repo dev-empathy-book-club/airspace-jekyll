@@ -310,8 +310,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature .btn-view-works {
-  background: #655E7A;
+#feature .btn-feature {
+  background: rgba(102, 102, 102, 0.6);
   color: #fff;
   padding: 10px 20px;
 }
