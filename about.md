@@ -7,48 +7,48 @@ headline: What is Dev Empathy Book Club?
 
 {% include slider.html %}
 
-<div id="intro">
-  <div class="container">
+<div class="container">
 
-    <p>
-    Software developers have a problem.
-    </p>
+  <h2>The Dev Empathy Book Club Mission</h2>
 
-    <p>
-    We're constantly told we need to get better at empathy skills. But all the
-    encouragement in the world won't help us figure out <em>how</em> to make that
-    happen.
-    </p>
+  <p>
+  Software developers have a problem.
+  </p>
 
-    <p>
-    Dev Empathy Book Club (DEBC) was founded in 2017 to answer that challenge.
-    We're a group of software engineers who want to make the world a more
-    empathetic place, and know it starts with ourselves. We also know that just
-    as communities build better software, communities are also a powerful way to
-    develop our own skills.
-    </p>
+  <p>
+  We're constantly told we need to get better at empathy skills. But all the
+  encouragement in the world won't help us figure out <em>how</em> to make that
+  happen.
+  </p>
 
-    <p>
-    We're here to be the world's most supportive community of programmers
-    reprogramming our brains to be more empathetic... and maybe we'll even make
-    a few friends along the way!
-    </p>
+  <p>
+  Dev Empathy Book Club was founded in 2017 to answer that challenge.
+  We're a group of software engineers who want to make the world a more
+  empathetic place, and know it starts with ourselves. We also know that just
+  as communities build better software, communities are also a powerful way to
+  develop our own skills.
+  </p>
 
-    <p>
-    Looking to broaden your exposure, improve your communication skills, and
-    share stories with a supportive audience as we all learn from the laboratory
-    of real life? You've come to the right place.
-    </p>
+  <p>
+  <strong>We are the world's most supportive community of programmers committed
+  to developing our empathy skills through study, discussion, and
+  practice.</strong>
+  </p>
 
-    <p>
-    So <a href="https://join.slack.com/t/devempathybookclub/shared_invite/MjExMTA4MjU0MDM3LTE0OTk3NzkwMjItYmExZmRkOWI4Ng">join us</a>!
-    We look forward to learning from your experiences.
-    </p>
+  <p>
+  Looking to broaden your exposure, improve your communication skills, and
+  share stories with a supportive audience as we all learn from the laboratory
+  of real life? You've come to the right place.
+  </p>
 
-    <h4>Credits</h4>
-    <p>
-    The Dev Empathy Book Club logo is adapted from a Noun Project image by
-    Arthur Shlain, distributed under the CC3.0 license.
-    </p>
-  </div>
+  <p>
+  So <a href="https://join.slack.com/t/devempathybookclub/shared_invite/MjExMTA4MjU0MDM3LTE0OTk3NzkwMjItYmExZmRkOWI4Ng">join us</a>!
+  We look forward to learning from your experiences.
+  </p>
+
+  <h4>Credits</h4>
+  <p>
+  The Dev Empathy Book Club logo is adapted from a Noun Project image by
+  Arthur Shlain, distributed under the CC3.0 license.
+  </p>
 </div>
