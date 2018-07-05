@@ -33,3 +33,4 @@ and share with other Dev Empaths!
 [Managing Culture]: https://youtu.be/JlcEHatXr-I?t=35m7s
 [Ideal Office Environment]: https://youtu.be/JlcEHatXr-I?t=44m55s
 [Aligning Motivations]: https://youtu.be/JlcEHatXr-I?t=53m53s
+[join us]: https://join.slack.com/t/devempathybookclub/shared_invite/MjExMTA4MjU0MDM3LTE0OTk3NzkwMjItYmExZmRkOWI4Ng
