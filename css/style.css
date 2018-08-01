@@ -40,3 +40,13 @@ ul li {
 #what-is-club.row > div {
   padding: 20px;
 }
+
+div.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#call-to-action div.flex-vertical {
+  height: 300px;
+}
