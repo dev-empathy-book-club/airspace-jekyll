@@ -67,9 +67,9 @@ latest_episode_link: JlcEHatXr-I
       <div class="col-md-5">
         {% assign story = site.stories | last %}
         <h2>{{story.title}}</h2>
-        <p>
+        <div class="bold">
           {{ story.content | truncatewords: 80 }}
-        </p>
+        </div>
         <p>
           <a href="{{ story.url | prepend: site.baseurl }}" class="btn btn-default btn-feature">Read More</a>
         </p>
