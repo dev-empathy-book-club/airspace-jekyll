@@ -19,6 +19,23 @@ panelists:
     gravatar: cb7679e22f016dc6b4dac28b950f14a4
     bio: Web developer, consultant, teacher, life long learner, and cat lover.
     site: http://justinherrick.com/
+books:
+  - title: Pragmatic Programmer
+    url: https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X
+    imgUrl: pragmatic-programmer
+    current: true
+  - title: Nonviolent Communication
+    url: https://www.amazon.com/Nonviolent-Communication-Language-Life-Changing-Relationships/dp/189200528X
+    imgUrl: nonviolent-communication
+  - title: Peopleware
+    url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
+    imgUrl: peopleware
+  - title: The Design of Everyday Things
+    url: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654
+    imgUrl: design-everyday-things
+#  - title: Radical Candor
+#    url: https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509
+#    imgUrl: radical-candor
 latest_episode_link: JlcEHatXr-I
 ---
 
@@ -119,6 +136,29 @@ latest_episode_link: JlcEHatXr-I
           <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDXMso9kb_7tkiOH5PxC2h15VwXQsMxxi8KSWsmnXTEm5_WA/viewform">Get in touch</a> and you could be one of our panelists!</p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>What kind of books?</h2>
+        <p>A quick taste of what we've read:</p>
+      </div>
+    </div>
+    <div class="row ">
+    {% for book in page.books %}
+      <div class="col-sm-6 col-md-3">
+        <div class="book-example">
+          <a href="{{ book.url }}">
+            <img src="/img/book-covers/{{ book.imgUrl }}.jpg" alt="{{ book.title }}">
+            <h4>{{ book.title }}</h4>
+            {% if book.current %}
+              <p><em>(Currently in progress!)</em></p>
+            {% endif %}
+          </a>
+        </div>
+      </div>
+    {% endfor %}
     </div>
   </div>
 </section>

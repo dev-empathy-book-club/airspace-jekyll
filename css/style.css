@@ -50,3 +50,11 @@ div.flex-vertical {
 #call-to-action div.flex-vertical {
   height: 300px;
 }
+
+.book-example a {
+  color: #666;
+}
+
+.book-example img {
+  box-shadow: 5px 7px 15px #AAA;
+}
