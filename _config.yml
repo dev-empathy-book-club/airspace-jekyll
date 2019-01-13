@@ -19,6 +19,7 @@ subtitle: "Better Developers. Better People."
 url: "https://devempathybook.club" # the base hostname & protocol for your site
 baseurl: ""
 logo: "/assets/logo.png"
+cloudinary_url: "https://res.cloudinary.com/dev-empathy-book-club"
 
 # Build settings
 markdown: kramdown
