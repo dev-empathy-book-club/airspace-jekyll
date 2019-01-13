@@ -102,10 +102,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg") no-repeat;
+  background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 0%;
+  background-position: center;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -224,9 +225,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/call-to-action-bg.jpg") no-repeat;
+  background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/call-to-action-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   padding: 70px 0px;
   position: relative;
   text-align: center;
@@ -267,14 +270,14 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #feature {
   background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/feature-bg.jpg");
-  background-position: 50% 94px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   width: 100%;
   display: block;
   position: relative;
   overflow: visible;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -407,12 +410,14 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
-  background-attachment: fixed;
 }
 #global-header:before {
   content: "";
@@ -656,8 +661,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start
 --*/
 #slider-contact {
-  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto/site/slider-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
@@ -853,4 +861,80 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  #slider {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_320,h_700,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #call-to-action {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_320,h_800,c_fill,g_auto/site/call-to-action-bg.jpg");
+  }
+  #feature {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_320,h_900,c_lfill,g_auto/site/feature-bg.jpg");
+  }
+  #global-header {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_320,h_700,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #slider-contact {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_320,h_700,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+  #slider {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_480,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #call-to-action {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_480,h_1000,c_fill,g_auto/site/call-to-action-bg.jpg");
+  }
+  #feature {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_480,h_1200,c_lfill,g_auto/site/feature-bg.jpg");
+  }
+  #global-header {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_480,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #slider-contact {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_480,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+}
+
+/* Midsize devices ----------- */
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+  #slider {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_768,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #call-to-action {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_768,h_1000,c_fill,g_auto/site/call-to-action-bg.jpg");
+  }
+  #feature {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_768,h_1200,c_lfill,g_auto/site/feature-bg.jpg");
+  }
+  #global-header {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_768,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #slider-contact {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_768,h_800,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+}
+
+/* Screens except large screens ----------- */
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+  #slider {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_1024,h_900,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #call-to-action {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_1024,h_1000,c_fill,g_auto/site/call-to-action-bg.jpg");
+  }
+  #feature {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_1024,h_1200,c_lfill,g_auto/site/feature-bg.jpg");
+  }
+  #global-header {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_1024,h_900,c_lfill,g_auto/site/slider-bg.jpg");
+  }
+  #slider-contact {
+    background-image: url("https://res.cloudinary.com/dev-empathy-book-club/image/upload/f_auto,q_auto,w_1024,h_900,c_lfill,g_auto/site/slider-bg.jpg");
+  }
 }
