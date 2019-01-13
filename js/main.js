@@ -45,7 +45,7 @@ $(document).ready(function(){
         time: 1000
     });
 
-  // Defer YouTube video load for performance reasons
+  // Defer YouTube video and GCal widget load for performance reasons
   // https://scottdeluzio.com/defer-parsing-javascript-youtube-videos/
   (function() {
     var vidDefer = document.getElementsByTagName('iframe');
