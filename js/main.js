@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$("#portfolio-contant-active").mixItUp();
 
-
+/*
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
 	    singleItem:true,
@@ -26,8 +26,9 @@ $(document).ready(function(){
 		itemsDesktop : [1199,5],
 		itemsDesktopSmall : [979,5],
 	});
+  */
 
-
+/*
 	// google map
 		var map;
 		function initMap() {
@@ -36,14 +37,16 @@ $(document).ready(function(){
 		    zoom: 8
 		  });
 		}
-
+*/
 
 	// Counter
 
+/*
 	$('.counter').counterUp({
         delay: 10,
         time: 1000
     });
+*/
 
   // Defer YouTube video and GCal widget load for performance reasons
   // https://scottdeluzio.com/defer-parsing-javascript-youtube-videos/
