@@ -57,14 +57,14 @@
 
     // Defer YouTube video and GCal widget load for performance reasons
     // https://scottdeluzio.com/defer-parsing-javascript-youtube-videos/
-    (function() {
-      var vidDefer = document.getElementsByTagName('iframe');
-      for (var i=0; i<vidDefer.length; i++) {
-        if(vidDefer[i].getAttribute('data-src')) {
-          vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
-        }
-      }
-    })()
+  //   (function() {
+      // var vidDefer = document.getElementsByTagName('iframe');
+      // for (var i=0; i<vidDefer.length; i++) {
+        // if(vidDefer[i].getAttribute('data-src')) {
+          // vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+        // }
+      // }
+    // })()
 
   });
 })();
