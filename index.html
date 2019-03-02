@@ -20,10 +20,19 @@ panelists:
     bio: Web developer, consultant, teacher, life long learner, and cat lover.
     site: http://justinherrick.com/
 books:
-  - title: Pragmatic Programmer
+  - title: Don't Make Me Think
+    url: https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515
+    imgUrl: dont-make-me-think
+    current: true
+  - title: Difficult Conversations
+    url: https://www.amazon.com/Difficult-Conversations-Discuss-What-Matters/dp/0143118447
+    imgUrl: difficult-conversations
+  - title: The Mythical Man-Month
+    url: https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959
+    imgUrl: mythical-man-month
+  - title: The Pragmatic Programmer
     url: https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X
     imgUrl: pragmatic-programmer
-    current: true
   - title: Nonviolent Communication
     url: https://www.amazon.com/Nonviolent-Communication-Language-Life-Changing-Relationships/dp/189200528X
     imgUrl: nonviolent-communication
@@ -33,9 +42,9 @@ books:
   - title: The Design of Everyday Things
     url: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654
     imgUrl: design-everyday-things
-#  - title: Radical Candor
-#    url: https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509
-#    imgUrl: radical-candor
+  - title: Radical Candor
+    url: https://www.amazon.com/Radical-Candor-Kick-Ass-Without-Humanity/dp/1250103509
+    imgUrl: radical-candor
 latest_episode_link: JlcEHatXr-I
 ---
 
@@ -158,6 +167,11 @@ latest_episode_link: JlcEHatXr-I
           </a>
         </div>
       </div>
+      {% assign modulo = forloop.index | modulo:4 %}
+      {% if modulo == 0 %}
+    </div>
+    <div class="row ">
+      {% endif %}
     {% endfor %}
     </div>
   </div>
